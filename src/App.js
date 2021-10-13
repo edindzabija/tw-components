@@ -1,7 +1,9 @@
+import Navbar from './components/navigation/Navbar/Navbar';
+
 function App() {
   return (
     <div>
-      <p className='text-center'>Tailwind Components</p>
+      <Navbar />
     </div>
   );
 }
